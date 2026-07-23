@@ -12,128 +12,157 @@ interface Chapter {
 
 const CHAPTERS: Chapter[] = [
   {
-  year: '2004',
-  title: 'The Beginning',
+    year: "2004",
+    title: "The Beginning",
+    paragraphs: [
+      "Bangalore, India.",
+      "Very curious from the beginning. I learned to speak early, but I think I learned to observe even earlier."
+    ],
+    whatChanged:
+      "Curiosity became my default way of understanding the world."
+  },
+
+  {
+    year: "Childhood",
+    title: "Learning to Imagine",
+    paragraphs: [
+      "I always wanted to be an artist of some kind. I didn't know what that meant yet. I just knew I wanted to create things that didn't exist before.",
+      "The memories that stay with me aren't the endless competitions I won. They're evenings listening to music with my parents."
+    ],
+    whatChanged:
+      "I learned that curiosity lasts longer than certainty."
+  },
+
+  {
+    year: "2013",
+    title: "The Joy of Solving Problems",
+    paragraphs: [
+      "Math quickly became my favorite subject.",
+      "Around this time, I built my first real project: ThyroCare, a simple tool that classified hypo, hyper, or no risk of thyroid. A doctor even wanted to take it further, but the project never became anything more.",
+      "For the first time, I realized technology could solve real problems for real people."
+    ],
+    whatChanged:
+      "Building something for another person felt different from simply getting a good grade."
+  },
+
+  {
+    year: "2013–2018",
+    title: "Building My Own Corner of the Internet",
+    paragraphs: [
+      "Like many teenagers, I fell deep into YouTube. I admired creators who could entertain, teach, and build communities around the things they loved.",
+      "A friend and I even started our own YouTube channel. Along the way, I experimented with WordPress websites, spent countless hours gaming, and genuinely believed I could become the next Katy Perry.",
+      "None of those dreams lasted forever, but they all pointed toward something that did."
+    ],
+    whatChanged:
+      "I realized I didn't care what I was creating. I simply loved creating."
+  },
+
+  {
+    year: "2020",
+    title: "Finishing School",
+    paragraphs: [
+      "I graduated from Whitefield Global School with 90% in my CBSE board exams and joined CMR National PU College.",
+      "That summer, I interned at SSERD, helping lay the foundation for a space education club that introduced school students to space exploration and science."
+    ],
+    whatChanged:
+      "The classroom gave me knowledge. The real world gave me perspective."
+  },
+
+  {
+    year: "2020–2022",
+    title: "Choosing a Different Path",
+    paragraphs: [
+      "I graduated from PU with 95%, became the Biology Topper, and had the honor of being the Science Branch Valedictorian.",
+      "For years, I believed medicine was where I was headed. Then NEET happened.",
+      "Walking away wasn't easy, but it made space for another path. I joined CMR Institute of Technology to study Computer Science with a specialization in Artificial Intelligence & Machine Learning."
+    ],
+    whatChanged:
+      "Walking away from one dream made room for another."
+  },
+
+  {
+    year: "Sep 2022 – Jan 2023",
+    title: "Writing for Thousands",
+    paragraphs: [
+      "Around the same time, I worked as a Writer & IP Content Auditor at GoodNovel.",
+      "For the first time, thousands of strangers were reading something I had created. It showed me that creativity could travel much farther than the person behind it."
+    ],
+    whatChanged:
+      "I learned that ideas can scale just as much as products."
+  },
+
+  {
+    year: "2022–2026",
+    title: "An Unexpected Education",
+    paragraphs: [
+      "College was never something I romanticized, but it became one of the most important periods of my life.",
+      "I completed my degree in Computer Science (AI & ML) at CMR Institute of Technology with a 9.4 GPA.",
+      "Along the way, I interned in Data Analytics & Machine Learning at Rinex and realized something unexpected: while I enjoyed solving problems, I didn't enjoy machine learning as much as I had imagined.",
+      "College became less about earning a degree and more about learning how I learn."
+    ],
+    whatChanged:
+      "Learning how to learn became far more valuable than any single skill."
+  },
+
+  {
+    year: "2024",
+    title: "Finding Better Questions",
+    paragraphs: [
+      "I volunteered at CyBe Global, where AI and cybersecurity sparked a deeper curiosity.",
+      "Around the same time, I worked with Pawzz Foundation on fundraising and community outreach, reminding me that meaningful work is ultimately about helping people.",
+      "While everyone around me chased placements, I couldn't shake the feeling that I wanted to build something of my own."
+    ],
+    whatChanged:
+      "Sometimes clarity begins with knowing what you don't want."
+  },
+
+  {
+    year: "Aug 2025 – Jan 2026",
+    title: "Learning to Lead",
+    paragraphs: [
+      "I joined UnlockDiscounts as a Product Management Intern.",
+      "Together with a team of developers, we built a service marketplace similar to Urban Company in under four months. It never found customers.",
+      "Oddly enough, that didn't bother me. I discovered I loved bringing people together to solve problems."
+    ],
+    whatChanged:
+      "I realized leadership interested me far more than titles ever could."
+  },
+
+  {
+  year: "2025–2026",
+  title: "In the Quiet of My Solitude",
   paragraphs: [
-    'Bangalore, India.',
-    'Very curious from the beginning. I learned to speak early, but I think I learned to observe even earlier.',
+    'I published my first poetry collection, <a href="https://store.pothi.com/book/urvi-bhat-ub-quiet-my-solitude/" target="_blank" rel="noopener noreferrer" class="text-[#A78BFA] underline underline-offset-4 hover:text-[#C4B5FD] transition-colors">In the Quiet of My Solitude</a>.',
+    "I later took it down before bringing it back. It has sold very few copies, but I'm glad it exists.",
+    "Sometimes creating something deeply personal is enough."
   ],
-  whatChanged: 'Curiosity became my default way of understanding the world.',
+  whatChanged:
+    "Sharing something honest with the world takes a different kind of courage."
 },
 
-{
-  year: 'Before 2013',
-  title: 'Learning to Imagine',
-  paragraphs: [
-    'I always wanted to be an artist of some kind. I didn\'t know what that meant yet. I just knew I wanted to create things that didn\'t exist before.',
-    'The memories that stay with me aren\'t the endless competitions I won. They\'re evenings listening to music with my parents.',
-  ],
-  whatChanged: 'I learned that curiosity lasts longer than certainty.',
-},
+  {
+    year: "2026",
+    title: "Finding My Place",
+    paragraphs: [
+      "I joined GenSpark through Internshala as an Executive Assistant Intern to the Company Head, India.",
+      "Over the following months, I worked on workflow automations, organizational processes, internal systems, US sales intelligence, and Product & Growth initiatives.",
+      "Five months later, I joined full-time as a Business Associate in Product & Growth.",
+      "More importantly, I found mentors who completely changed the way I think."
+    ],
+    whatChanged:
+      "The right people don't just change your career. They change the way you think."
+  },
 
-{
-  year: '2013',
-  title: 'The Joy of Solving Problems',
-  paragraphs: [
-    'Math quickly became my favorite subject.',
-    'Around this time, I built my first real project: ThyroCare. A simple tool that classified hypo, hyper or no risk of thyroid. A doctor even wanted to take it further, but the project never became anything more.',
-    'Throughout my years at Whitefield Global School, I loved balancing academics with creativity.',
-    'There was more to life than marks. I just hadn\'t figured out what that "more" was yet.',
-  ],
-  whatChanged: 'Building something for another person felt different from simply getting a good grade.',
-},
-
-{
-  year: '2018',
-  title: 'A Different Version of Me',
-  paragraphs: [
-    'There was a time when I barely recognized myself.',
-    'I was overweight, mentally drained, and struggling academically. Everything felt heavier than it should have.',
-    'Looking back, I don\'t remember one moment that fixed everything. I remember slowly choosing to move forward, even when I didn\'t feel like it.',
-  ],
-  whatChanged: 'I learnt that nothing lasts forever. The good times don\'t, and thankfully, neither do the difficult ones.',
-},
-
-{
-  year: '2020',
-  title: 'On the Hunt',
-  paragraphs: [
-    'I graduated from Whitefield Global School with 90% in my CBSE boards. School was over, and I had just begun my journey at CMR National PU College.',
-    'That summer, I interned at SSERD, where I helped lay the foundation for a space education club that introduced school students to space exploration and science.',
-    'I knew I wanted to create. I just didn\'t know where I belonged.',
-    'I wrote stories on Wattpad, experimented with WebNovel, explored different ideas, and kept chasing something that felt meaningful.',
-    'Nothing really worked. No breakthrough. No overnight success. Just a lot of learning, writing, and wondering if I was on the right path.',
-  ],
-  whatChanged: 'Not every search ends with an answer. Sometimes it simply teaches you what to keep looking for.',
-},
-
-{
-  year: '2022',
-  title: 'Changing Directions',
-  paragraphs: [
-    'I graduated from CMR National PU College with 95% in my board exams, was the Biology Topper, and had the honor of being the Science Branch Valedictorian.',
-    'For years, I believed medicine was where I was headed. Then NEET happened.',
-    'Walking away wasn\'t easy, but it made space for another path. I joined CMR Institute of Technology to study Computer Science with a specialization in Artificial Intelligence & Machine Learning.',
-    'Around the same time, I worked as a Writer & IP Content Auditor at GoodNovel. For the first time, thousands of strangers were reading something I had created, showing me that creativity could reach far beyond my own notebook.',
-  ],
-  whatChanged: 'Success helped me earn confidence. Walking away helped me earn clarity.',
-},
-
-{
-  year: '2023',
-  title: 'An Unexpected Education',
-  paragraphs: [
-    'I never really believed college was where I\'d find my future. I enrolled anyway.',
-    'That year, I interned in Data Analytics & Machine Learning at Rinex. The experience taught me something unexpected: while I enjoyed solving problems, I didn\'t enjoy the work itself as much as I had imagined.',
-    'Slowly, I realized the degree wasn\'t the most valuable part of the experience. College gave me room to explore, question, and discover how I learn best.',
-    'The biggest lesson wasn\'t technical. It was realizing that my greatest strength isn\'t knowing the answers, it\'s learning whatever comes next.',
-  ],
-  whatChanged: 'Confidence doesn\'t come from having all the answers. It comes from knowing you can figure them out.',
-},
-
-{
-  year: '2024',
-  title: 'Finding Better Questions',
-  paragraphs: [
-    'I volunteered at CyBe Global. Cybersecurity and AI fascinated me, but something felt incomplete.',
-    'Around the same time, I worked with Pawzz Foundation on fundraising and community outreach. It reminded me that meaningful work is ultimately about helping people.',
-    'While everyone around me prepared for placements and internships, I couldn\'t shake the feeling that I wanted to build something of my own. I just didn\'t know what it was yet.',
-  ],
-  whatChanged: 'Sometimes clarity begins with knowing what you don\'t want.',
-},
-
-{
-  year: '2025',
-  title: 'Leadership Over Titles',
-  paragraphs: [
-    'I published my first poetry collection, In the Quiet of My Solitude. A few months later, I unpublished it.',
-    'I also joined UnlockDiscounts as a Product Management Intern. Together with a team of developers, we built a service marketplace similar to Urban Company in under four months. It never found customers.',
-    'Oddly enough, that didn\'t bother me. I discovered I loved solving problems alongside people. I also realized I didn\'t need money to enjoy building.',
-  ],
-  whatChanged: 'The work itself became the reward. Leadership interested me far more than titles ever could.',
-},
-
-{
-  year: '2026',
-  title: 'Finding My Place',
-  paragraphs: [
-    'I graduated from college with a 9.4 GPA.',
-    'Around the same time, I republished my poetry collection, <a href="https://store.pothi.com/book/urvi-bhat-ub-quiet-my-solitude/" target="_blank" rel="noopener noreferrer" class="text-[#7C3AED] underline underline-offset-4 hover:opacity-80 transition-opacity">In the Quiet of My Solitude</a>. It has sold very few copies. Am I proud that it exists? Still unsure.',
-    'I then joined GenSpark through Internshala as an Executive Assistant (Intern) to the Company Head, India. Over the next few months, I worked on workflow automations, organizational processes, internal systems, US sales intelligence, and B2B & B2C initiatives. Five months later, I was converted to a full-time Business Associate in Product & Growth.',
-    'More importantly, I found mentors who completely changed the way I think.',
-  ],
-  whatChanged: 'The right environment doesn\'t just help you grow. It changes the size of your ambitions.',
-},
-
-{
-  year: 'Today',
-  title: 'Still Becoming',
-  paragraphs: [
-    'I\'m still asking questions. Still writing. Still building. Still fascinated by people.',
-    'The best chapters haven\'t been written yet.',
-  ],
-  whatChanged: 'The journey continues.',
-},
+  {
+    year: "Today",
+    title: "Still Becoming",
+    paragraphs: [
+      "I'm still asking questions. Still writing. Still building. Still fascinated by people.",
+      "The best chapters haven't been written yet."
+    ],
+    whatChanged:
+      "I'm still becoming."
+  }
 ];
 
 export default function JourneyPage() {
@@ -228,14 +257,16 @@ export default function JourneyPage() {
 function ChapterCard({ chapter }: { chapter: Chapter }) {
   return (
     <div className="group relative bg-[#111111]/80 backdrop-blur-sm border border-neutral-800 hover:border-[#7C3AED]/50 rounded-xl p-6 md:p-8 transition-all duration-500 shadow-lg hover:shadow-[0_0_25px_rgba(124,58,237,0.12)]">
-      {/* Header: Year & Title */}
-      <div className="space-y-1 mb-6">
-        <span className="text-xs font-mono uppercase tracking-widest text-[#7C3AED]">
-          {chapter.year}
-        </span>
+      {/* Header: Title as Primary Heading with Year Pill tag beneath */}
+      <div className="space-y-2 mb-6">
         <h2 className="text-xl md:text-2xl font-light text-white tracking-tight">
           {chapter.title}
         </h2>
+        <div>
+          <span className="inline-block px-2.5 py-0.5 text-xs font-mono text-[#7C3AED] bg-[#7C3AED]/10 border border-[#7C3AED]/20 rounded-full tracking-wider">
+            {chapter.year}
+          </span>
+        </div>
       </div>
 
       {/* Story Paragraphs */}
