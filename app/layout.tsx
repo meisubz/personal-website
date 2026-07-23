@@ -14,9 +14,12 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Urvi Bhat | Portfolio',
-  description: 'Personal website and notebook of Urvi Bhat.',
+  description: 'Personal portfolio and notebook.',
+  verification: {
+    google: 'googlecb5f136b84a57351', // <--- Add this line
+  },
 };
 
 export default function RootLayout({
