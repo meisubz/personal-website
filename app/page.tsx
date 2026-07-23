@@ -167,11 +167,11 @@ export default function HomePage() {
       >
         <div className="relative aspect-[4/5] md:aspect-[16/10] w-full overflow-hidden rounded-2xl bg-[#E5E7EB] dark:bg-neutral-900">
           <Image
-            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=1200"
-            alt="Urvi portrait"
+            src="/profile.jpg"
+            alt="Urvi Bhat portrait"
             fill
             priority
-            className="object-cover object-center grayscale hover:grayscale-0 transition-all duration-700"
+            className="object-cover object-top transition-all duration-700"
           />
         </div>
         <p className="mt-3 text-xs text-[#6B7280] dark:text-neutral-500 tracking-wide font-mono">
