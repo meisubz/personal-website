@@ -165,17 +165,17 @@ export default function HomePage() {
         variants={fadeInUp}
         className="relative"
       >
-        <div className="relative aspect-[4/5] md:aspect-[16/10] w-full overflow-hidden rounded-2xl bg-[#E5E7EB] dark:bg-neutral-900">
+        <div className="relative aspect-[4/5] md:aspect-[16/10] w-full overflow-hidden rounded-2xl bg-[#E5E7EB] dark:bg-neutral-900 group">
           <Image
-            src="/profile.jpg"
+            src="/profile.jpeg"
             alt="Urvi Bhat portrait"
             fill
             priority
-            className="object-cover object-top transition-all duration-700"
+            className="object-cover object-top filter grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
           />
         </div>
         <p className="mt-3 text-xs text-[#6B7280] dark:text-neutral-500 tracking-wide font-mono">
-          [ A quiet observer. ]
+          [ me ]
         </p>
       </motion.section>
 
