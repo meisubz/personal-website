@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-export const metadata: Metadata = {
-  title: 'Urvi — Worldview & Notebook',
-  description: 'Building meaningful products and exploring human curiosity.',
+export const metadata = {
+  title: 'Urvi Bhat | Portfolio',
+  description: 'Personal website and notebook of Urvi Bhat.',
 };
 
 export default function RootLayout({
