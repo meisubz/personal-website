@@ -18,19 +18,15 @@ const beliefs = [
 const thoughts = [
   {
     text: 'Why is loneliness increasing despite constant digital connection?',
-    date: 'July 2026',
   },
   {
     text: 'What subtle design details make a software product feel fundamentally trustworthy?',
-    date: 'July 2026',
   },
   {
     text: 'Can modern AI make us wiser, or does it only make us more capable?',
-    date: 'August 2026',
   },
   {
     text: 'Why do certain conversations stay with us for years while others vanish instantly?',
-    date: 'August 2026',
   },
 ];
 
@@ -136,8 +132,8 @@ export default function HomePage() {
             <p>Today, it shapes the work I do, the ideas I pursue, and the questions I keep returning to.</p>
             <p>Different paths.</p>
             <p className="text-xl md:text-2xl font-bold text-[#6D28D9] dark:text-[#7C3AED] pt-2">
-  The same question.
-</p>
+              The same question.
+            </p>
           </div>
         </motion.div>
 
@@ -251,9 +247,6 @@ export default function HomePage() {
               <p className="text-base md:text-lg text-[#111111] dark:text-[#EDEDED] font-normal leading-snug">
                 &ldquo;{thought.text}&rdquo;
               </p>
-              <span className="inline-block mt-3 text-xs font-mono text-[#6B7280] dark:text-neutral-500">
-                — {thought.date}
-              </span>
             </div>
           ))}
         </div>

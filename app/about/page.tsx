@@ -152,17 +152,17 @@ const CHAPTERS: Chapter[] = [
     whatChanged:
       "The right people don't just change your career. They change the way you think."
   },
-
   {
-    year: "Today",
-    title: "Still Becoming",
-    paragraphs: [
-      "I'm still asking questions. Still writing. Still building. Still fascinated by people.",
-      "The best chapters haven't been written yet."
-    ],
-    whatChanged:
-      "I'm still becoming."
-  }
+  year: "Today",
+  title: "An AI-Native Mindset",
+  paragraphs: [
+    "Artificial Intelligence has become part of my everyday thinking. I use it to learn faster, write better, prototype ideas, automate workflows, code, and solve better problems.",
+    "Somewhere along the way, AI stopped feeling like software. It became a collaborator.",
+    "What excites me most isn't what AI can do. It's who it helps me become."
+  ],
+  whatChanged:
+    "I learned that the best AI isn't the one that thinks for you, but the one that helps you think better."
+}
 ];
 
 export default function JourneyPage() {

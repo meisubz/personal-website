@@ -25,7 +25,7 @@ const NOTES: Note[] = [
     title: 'What subtle design details make a software product feel fundamentally trustworthy?',
     content: [
       'Trust in software is rarely built through bold marketing claims; it is earned in milliseconds through restraint and predictability.',
-      'It lives in predictable visual hierarchy, state persistence, instant feedback loops, and respecting a user’s agency—never forcing unnecessary modals, deceptive patterns, or manipulative urgency.',
+      'It lives in predictable visual hierarchy, state persistence, instant feedback loops, and respecting a user’s agency, never forcing unnecessary modals, deceptive patterns, or manipulative urgency.',
       'When an application respects your attention, handles errors gracefully without blaming you, and feels calm under pressure, it stops feeling like a transactional vendor and starts feeling like a reliable tool.',
     ],
   },
@@ -34,7 +34,7 @@ const NOTES: Note[] = [
     title: 'Can modern AI make us wiser, or does it only make us more capable?',
     content: [
       'Capability is the capacity to process information and execute tasks at speed. Wisdom is knowing which tasks are actually worth pursuing and understanding the consequences of doing so.',
-      'AI grants us unprecedented leverage—allowing us to generate, calculate, and synthesize in seconds what once took weeks. Yet leverage without reflection simply accelerates mistake making.',
+      'AI grants us unprecedented leverage, allowing us to generate, calculate, and synthesize in seconds what once took weeks. Yet leverage without reflection simply accelerates mistake making.',
       'Technology can provide instant answers, but wisdom requires sitting with ambiguity, experiencing failure, and weighing trade-offs. AI will expand what we can do, but choosing what we *should* do remains a uniquely human burden.',
     ],
   },
